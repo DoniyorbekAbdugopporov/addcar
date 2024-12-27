@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+  /* scrollbar-width: thin;
+  scrollbar-color: #ff4040 #1a1a1a; */
+}
