@@ -1,4 +1,5 @@
 import Car from "@/components/car/Car";
+import UserManager from "@/components/userManeger/UserManeger";
 
 const Home = () => {
   const handleClick = (p) => {
@@ -9,7 +10,8 @@ const Home = () => {
       {/* <h2>Home</h2>
       <button onClick={() => handleClick(5)}>click</button>
       <Hero title={"Class Component"} /> */}
-      <Car />
+      {/* <Car /> */}
+      <UserManager />
     </>
   );
 };
